@@ -2,7 +2,7 @@ import ContentWrapper from "../contentWrapper/ContentWrapper";
 import banner from "../../assets/Bannerpic1.png";
 import { Typewriter } from "react-simple-typewriter";
 import { Link } from "react-scroll";
-
+import myCv from "../../assets/myCV.pdf";
 const Hero = () => {
   return (
     <ContentWrapper>
@@ -56,7 +56,7 @@ const Hero = () => {
               ABOUT ME
             </Link>
             <a
-              href='#'
+              href={myCv}
               download
               className="w-32 px-4 py-2  border border-red-600 text-sm text-center"
             >
