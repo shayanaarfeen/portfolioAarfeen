@@ -21,6 +21,7 @@ const Hero = () => {
             <Typewriter
               words={[
                 "Software Developer",
+                "Full-Stack Developer",
                 "React JS Developer",
                 // "Freelance Developer",
                 // "Travel Enthusiast",

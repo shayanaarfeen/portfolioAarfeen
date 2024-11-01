@@ -30,7 +30,7 @@ import project3 from "../assets/project3.png";
 import project4 from "../assets/project4.png";
 import project5 from "../assets/project5.png";
 import project6 from "../assets/project6.png";
-
+import project7 from "../assets/project7.png";
 
 
 const navBarConst = [
@@ -73,10 +73,10 @@ const frontendSkill = [
     name: "Redux",
     icon: <SiRedux />,
   },
-  // {
-  //   name: "Next JS",
-  //   icon: <RiNextjsLine />,
-  // },
+  {
+    name: "Next JS",
+    icon: <RiNextjsLine />,
+  },
   {
     name: "Tailwind",
     icon: <RiTailwindCssFill />,
@@ -109,10 +109,10 @@ const backendSkill = [
     name: "Appwrite",
     icon: <SiAppwrite />,
   },
-  // {
-  //   name: "Express JS",
-  //   icon: <SiExpress />,
-  // },
+  {
+    name: "Express JS",
+    icon: <SiExpress />,
+  },
   // {
   //   name: "Amazon Web Service",
   //   icon: <FaAws />,
@@ -128,10 +128,10 @@ const techTools = [
     name: "VS Code",
     icon: <VscVscode />,
   },
-  // {
-  //   name: "Postman",
-  //   icon: <SiPostman />,
-  // },
+  {
+    name: "Postman",
+    icon: <SiPostman />,
+  },
   {
     name: "GitHub",
     icon: <FaGithub />,
@@ -151,6 +151,12 @@ const techTools = [
 ];
 
 const projectCardInfo = [
+  {
+    name: "SyncTalk (Chat Application)",
+    img: project7,
+    liveLink: "https://sync-talk.vercel.app/",
+    codeLink: "https://github.com/shayanaarfeen/syncTalk",
+  },
   {
     name: "E-Zey (Ecom Website)",
     img: project1,
